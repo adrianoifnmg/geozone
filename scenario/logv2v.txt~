@@ -1,0 +1,40 @@
+Waf: Entering directory `/home/adriano/ndnSIM/scenario/build'
+Waf: Leaving directory `/home/adriano/ndnSIM/scenario/build'
+'build' finished successfully (0.036s)
+1s 50 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1s 50 ndn.fw.V2v:OnInterest(): [INFO ] CRIACAO de Interesse em: X: 236.195 Y: 516.827
+1s 50 ndn.fw.V2v:Inside_Interest_Area(): [INFO ] Area de Interesse: Inferior (-4,-5) Superior (-0,12
+1s 50 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse em: X: 236.195 Y: 516.827
+1s 50 ndn.fw.V2v:DoPropagateInterest(0x8f7faa8)
+1s 50 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1s 50 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Pacote Interesse Origem em: X: 236.195 Y: 516.827
+Waf: Entering directory `/home/adriano/ndnSIM/scenario/build'
+[ 5/15] cxx: extensions/ndn-fw-v2v.cc -> build/extensions/ndn-fw-v2v.cc.1.o
+[15/15] cxxprogram: build/scenarios/car-pusher.cc.2.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-pusher
+[15/15] cxxprogram: build/scenarios/car-pusher_v2.cc.3.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-pusher_v2
+[15/15] cxxprogram: build/scenarios/car-relay_v2.cc.5.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-relay_v2
+[15/15] cxxprogram: build/scenarios/car-relay.cc.4.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-relay
+Waf: Leaving directory `/home/adriano/ndnSIM/scenario/build'
+'build' finished successfully (11.896s)
+1s 50 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1s 50 ndn.fw.V2v:OnInterest(): [INFO ] CRIACAO de Interesse em: X: 236.195 Y: 516.827
+1s 50 ndn.fw.V2v:Inside_Interest_Area(): [INFO ] Area de Interesse: Inferior (0,-8) Superior (4,15
+1s 50 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse em: X: 236.195 Y: 516.827
+1s 50 ndn.fw.V2v:DoPropagateInterest(0x9f63aa8)
+1s 50 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1s 50 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Pacote Interesse Origem em: X: 236.195 Y: 516.827
+Waf: Entering directory `/home/adriano/ndnSIM/scenario/build'
+[ 5/15] cxx: extensions/ndn-fw-v2v.cc -> build/extensions/ndn-fw-v2v.cc.1.o
+[12/15] cxxprogram: build/scenarios/car-relay_v2.cc.5.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-relay_v2
+[15/15] cxxprogram: build/scenarios/car-pusher.cc.2.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-pusher
+[15/15] cxxprogram: build/scenarios/car-pusher_v2.cc.3.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-pusher_v2
+[15/15] cxxprogram: build/scenarios/car-relay.cc.4.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o -> build/car-relay
+Waf: Leaving directory `/home/adriano/ndnSIM/scenario/build'
+'build' finished successfully (6.843s)
+1s 50 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1s 50 ndn.fw.V2v:OnInterest(): [INFO ] CRIACAO de Interesse em: X: 236.195 Y: 516.827
+1s 50 ndn.fw.V2v:CalculaRetanguloInteresse(): [INFO ] Area de Interesse: Inferior (0,-8) Superior (4,15
+1s 50 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse em: X: 236.195 Y: 516.827
+1s 50 ndn.fw.V2v:DoPropagateInterest(0x8b58aa8)
+1s 50 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1s 50 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Pacote Interesse Origem em: X: 236.195 Y: 516.827

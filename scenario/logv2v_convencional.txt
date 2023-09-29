@@ -1,0 +1,836 @@
+Waf: Entering directory `/home/adriano/ndnSIM/scenario/build'
+[ 5/21] cxx: extensions/ndn-fw-v2v.cc -> build/extensions/ndn-fw-v2v.cc.1.o
+[16/21] cxxprogram: build/scenarios/car-relay_v2.cc.7.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-relay_v2
+[17/21] cxxprogram: build/scenarios/_validacao_mobilidade_vehicular.cc.2.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/_validacao_mobilidade_vehicular
+[18/21] cxxprogram: build/scenarios/car-pusher.cc.3.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-pusher
+[19/21] cxxprogram: build/scenarios/car-pusher_v2.cc.4.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-pusher_v2
+[20/21] cxxprogram: build/scenarios/car-pusher_v3.cc.5.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-pusher_v3
+[21/21] cxxprogram: build/scenarios/car-relay.cc.6.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-relay
+Waf: Leaving directory `/home/adriano/ndnSIM/scenario/build'
+'build' finished successfully (15.101s)
+1s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1s 100 ndn.fw.V2v:OnInterest(): [INFO ] CRIACAO de Interesse em: X: 10 Y: 500
+1s 100 ndn.fw.V2v:DoPropagateInterest(0x86bc6c8)
+1s 100 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1s 100 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 1 faces
+1.00005s 40 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 40 ndn.fw.V2v:DoPropagateInterest(0x86a7440)
+1.00005s 40 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00005s 40 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00005s 40 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00005s 50 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 50 ndn.fw.V2v:DoPropagateInterest(0x86aacd0)
+1.00005s 50 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00005s 50 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00005s 50 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00005s 60 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 60 ndn.fw.V2v:DoPropagateInterest(0x86ae560)
+1.00005s 60 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00005s 60 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00005s 60 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00005s 30 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 30 ndn.fw.V2v:DoPropagateInterest(0x86a3b30)
+1.00005s 30 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00005s 30 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00005s 30 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00013s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 41 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 41 ndn.fw.V2v:DoPropagateInterest(0x86a79e8)
+1.00013s 41 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00013s 41 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00013s 41 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00013s 31 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 31 ndn.fw.V2v:DoPropagateInterest(0x86a40d8)
+1.00013s 31 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00013s 31 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00013s 31 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00013s 32 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 32 ndn.fw.V2v:DoPropagateInterest(0x86a4680)
+1.00013s 32 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00013s 32 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00013s 32 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00075s 20 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00075s 20 ndn.fw.V2v:DoPropagateInterest(0x86a02a0)
+1.00075s 20 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00075s 20 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00075s 20 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00106s 42 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00106s 42 ndn.fw.V2v:DoPropagateInterest(0x86a7f90)
+1.00106s 42 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00106s 42 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00106s 42 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00106s 33 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00106s 33 ndn.fw.V2v:DoPropagateInterest(0x86a4cb8)
+1.00106s 33 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00106s 33 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00106s 33 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00106s 23 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00106s 23 ndn.fw.V2v:DoPropagateInterest(0x86a1398)
+1.00106s 23 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00106s 23 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00106s 23 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00124s 61 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00124s 61 ndn.fw.V2v:DoPropagateInterest(0x86aeb08)
+1.00124s 61 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00124s 61 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00124s 61 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00124s 51 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00124s 51 ndn.fw.V2v:DoPropagateInterest(0x86ab278)
+1.00124s 51 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00124s 51 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00124s 51 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0014s 13 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0014s 13 ndn.fw.V2v:DoPropagateInterest(0x869dac8)
+1.0014s 13 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0014s 13 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0014s 13 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0014s 24 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0014s 24 ndn.fw.V2v:DoPropagateInterest(0x86a1940)
+1.0014s 24 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0014s 24 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0014s 24 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0014s 22 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0014s 22 ndn.fw.V2v:DoPropagateInterest(0x86a0df0)
+1.0014s 22 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0014s 22 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0014s 22 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0014s 14 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0014s 14 ndn.fw.V2v:DoPropagateInterest(0x869e070)
+1.0014s 14 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0014s 14 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0014s 14 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0014s 15 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0014s 15 ndn.fw.V2v:DoPropagateInterest(0x869e618)
+1.0014s 15 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0014s 15 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0014s 15 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00155s 41 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00155s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00155s 11 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00155s 11 ndn.fw.V2v:DoPropagateInterest(0x869cf78)
+1.00155s 11 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00155s 11 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00155s 11 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00155s 10 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00155s 10 ndn.fw.V2v:DoPropagateInterest(0x869c9d0)
+1.00155s 10 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00155s 10 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00155s 10 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00159s 25 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00159s 25 ndn.fw.V2v:DoPropagateInterest(0x86a1ee8)
+1.00159s 25 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00159s 25 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00159s 25 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00159s 5 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00159s 5 ndn.fw.V2v:DoPropagateInterest(0x869ad80)
+1.00159s 5 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00159s 5 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00159s 5 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00159s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00159s 16 ndn.fw.V2v:DoPropagateInterest(0x869ebc0)
+1.00159s 16 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00159s 16 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00159s 16 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00159s 4 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00159s 4 ndn.fw.V2v:DoPropagateInterest(0x869a7b0)
+1.00159s 4 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00159s 4 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00159s 4 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00159s 6 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00159s 6 ndn.fw.V2v:DoPropagateInterest(0x869b310)
+1.00159s 6 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00159s 6 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00159s 6 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00159s 34 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00159s 34 ndn.fw.V2v:DoPropagateInterest(0x86a5250)
+1.00159s 34 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00159s 34 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00159s 34 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00233s 24 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00233s 35 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00233s 35 ndn.fw.V2v:DoPropagateInterest(0x86a57f8)
+1.00233s 35 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00233s 35 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00233s 35 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00233s 44 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00233s 44 ndn.fw.V2v:DoPropagateInterest(0x86a8ae0)
+1.00233s 44 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00233s 44 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00233s 44 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00233s 53 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00233s 53 ndn.fw.V2v:DoPropagateInterest(0x86abdc8)
+1.00233s 53 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00233s 53 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00233s 53 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0026s 50 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0026s 52 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0026s 52 ndn.fw.V2v:DoPropagateInterest(0x86ab820)
+1.0026s 52 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0026s 52 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0026s 52 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0026s 62 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0026s 62 ndn.fw.V2v:DoPropagateInterest(0x86af0b0)
+1.0026s 62 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0026s 62 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0026s 62 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0026s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00268s 54 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00268s 54 ndn.fw.V2v:DoPropagateInterest(0x86ac370)
+1.00268s 54 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00268s 54 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00268s 54 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00268s 63 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00268s 63 ndn.fw.V2v:DoPropagateInterest(0x86af658)
+1.00268s 63 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00268s 63 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00268s 63 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00268s 64 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00268s 64 ndn.fw.V2v:DoPropagateInterest(0x86afc00)
+1.00268s 64 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00268s 64 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00268s 64 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00276s 0 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00276s 0 ndn.fw.V2v:DoPropagateInterest(0x8699090)
+1.00276s 0 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00276s 0 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00276s 0 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00276s 20 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00276s 21 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00276s 21 ndn.fw.V2v:DoPropagateInterest(0x86a0848)
+1.00276s 21 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00276s 21 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00276s 21 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00291s 12 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00291s 12 ndn.fw.V2v:DoPropagateInterest(0x869d520)
+1.00291s 12 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00291s 12 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00291s 12 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00291s 20 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00291s 41 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00307s 3 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00307s 3 ndn.fw.V2v:DoPropagateInterest(0x869a1f0)
+1.00307s 3 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00307s 3 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00307s 3 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00332s 7 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00332s 7 ndn.fw.V2v:DoPropagateInterest(0x869b8b8)
+1.00332s 7 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00332s 7 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00332s 7 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00332s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00332s 17 ndn.fw.V2v:DoPropagateInterest(0x869f1b0)
+1.00332s 17 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00332s 17 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00332s 17 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00332s 8 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00332s 8 ndn.fw.V2v:DoPropagateInterest(0x869be60)
+1.00332s 8 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00332s 8 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00332s 8 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00332s 18 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00332s 18 ndn.fw.V2v:DoPropagateInterest(0x869f750)
+1.00332s 18 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00332s 18 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00332s 18 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00347s 2 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00347s 2 ndn.fw.V2v:DoPropagateInterest(0x8699c58)
+1.00347s 2 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00347s 2 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00347s 2 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00361s 24 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00367s 19 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00367s 19 ndn.fw.V2v:DoPropagateInterest(0x869fcf8)
+1.00367s 19 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00367s 19 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00367s 19 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00367s 28 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00367s 28 ndn.fw.V2v:DoPropagateInterest(0x86a2fe0)
+1.00367s 28 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00367s 28 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00367s 28 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00367s 9 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00367s 9 ndn.fw.V2v:DoPropagateInterest(0x869c428)
+1.00367s 9 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00367s 9 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00367s 9 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00367s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00369s 51 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00369s 60 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00369s 72 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00369s 72 ndn.fw.V2v:DoPropagateInterest(0x86b2a40)
+1.00369s 72 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00369s 72 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00369s 72 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00369s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00369s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00369s 80 ndn.fw.V2v:DoPropagateInterest(0x86b5780)
+1.00369s 80 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00369s 80 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00369s 80 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00397s 32 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00397s 43 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00397s 43 ndn.fw.V2v:DoPropagateInterest(0x86a8538)
+1.00397s 43 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00397s 43 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00397s 43 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00397s 24 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00397s 42 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00409s 27 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00409s 27 ndn.fw.V2v:DoPropagateInterest(0x86a2a38)
+1.00409s 27 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00409s 27 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00409s 27 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00423s 15 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00423s 7 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 71 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 71 ndn.fw.V2v:DoPropagateInterest(0x86b2498)
+1.00426s 71 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00426s 71 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00426s 71 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00426s 82 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 82 ndn.fw.V2v:DoPropagateInterest(0x86b62d0)
+1.00426s 82 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00426s 82 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00426s 82 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00426s 62 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 73 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 73 ndn.fw.V2v:DoPropagateInterest(0x86b2fe8)
+1.00426s 73 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00426s 73 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00426s 73 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00426s 81 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 81 ndn.fw.V2v:DoPropagateInterest(0x86b5d28)
+1.00426s 81 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00426s 81 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00426s 81 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00426s 83 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 83 ndn.fw.V2v:DoPropagateInterest(0x86b6878)
+1.00426s 83 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00426s 83 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00426s 83 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00426s 52 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 92 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00426s 92 ndn.fw.V2v:DoPropagateInterest(0x86b9b60)
+1.00426s 92 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00426s 92 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00426s 92 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00435s 18 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0044s 34 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0044s 45 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0044s 45 ndn.fw.V2v:DoPropagateInterest(0x86a9088)
+1.0044s 45 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0044s 45 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0044s 45 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00441s 55 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00441s 55 ndn.fw.V2v:DoPropagateInterest(0x86ac918)
+1.00441s 55 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00441s 55 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00441s 55 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00441s 24 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0045s 53 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0045s 62 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0045s 74 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0045s 74 ndn.fw.V2v:DoPropagateInterest(0x86b3590)
+1.0045s 74 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0045s 74 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0045s 74 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0045s 65 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0045s 65 ndn.fw.V2v:DoPropagateInterest(0x86b0278)
+1.0045s 65 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0045s 65 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0045s 65 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0045s 75 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0045s 75 ndn.fw.V2v:DoPropagateInterest(0x86b3b38)
+1.0045s 75 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0045s 75 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0045s 75 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00465s 36 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00465s 36 ndn.fw.V2v:DoPropagateInterest(0x86a5da0)
+1.00465s 36 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00465s 36 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00465s 36 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00465s 34 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00465s 26 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00465s 26 ndn.fw.V2v:DoPropagateInterest(0x86a2490)
+1.00465s 26 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00465s 26 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00465s 26 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00465s 24 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00465s 37 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00465s 37 ndn.fw.V2v:DoPropagateInterest(0x86a6348)
+1.00465s 37 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00465s 37 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00465s 37 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00465s 56 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00465s 56 ndn.fw.V2v:DoPropagateInterest(0x86acec0)
+1.00465s 56 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00465s 56 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00465s 56 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00472s 53 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00472s 76 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00472s 76 ndn.fw.V2v:DoPropagateInterest(0x86b40e0)
+1.00472s 76 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00472s 76 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00472s 76 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00482s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00482s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00482s 38 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00482s 38 ndn.fw.V2v:DoPropagateInterest(0x86a68f0)
+1.00482s 38 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00482s 38 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00482s 38 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00482s 7 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0049s 84 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0049s 84 ndn.fw.V2v:DoPropagateInterest(0x86b6e20)
+1.0049s 84 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0049s 84 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0049s 84 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0049s 94 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0049s 94 ndn.fw.V2v:DoPropagateInterest(0x86ba6b0)
+1.0049s 94 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0049s 94 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0049s 94 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0049s 72 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00499s 46 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00499s 46 ndn.fw.V2v:DoPropagateInterest(0x86a9630)
+1.00499s 46 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00499s 46 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00499s 46 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00499s 66 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00499s 66 ndn.fw.V2v:DoPropagateInterest(0x86b0850)
+1.00499s 66 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00499s 66 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00499s 66 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00499s 57 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00499s 57 ndn.fw.V2v:DoPropagateInterest(0x86ad468)
+1.00499s 57 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00499s 57 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00499s 57 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00499s 67 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00499s 67 ndn.fw.V2v:DoPropagateInterest(0x86b0df8)
+1.00499s 67 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00499s 67 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00499s 67 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00499s 54 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00533s 15 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00533s 24 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00533s 35 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00533s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00533s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00534s 90 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00534s 90 ndn.fw.V2v:DoPropagateInterest(0x86b9010)
+1.00534s 90 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00534s 90 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00534s 90 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00534s 70 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00534s 70 ndn.fw.V2v:DoPropagateInterest(0x86b1ef0)
+1.00534s 70 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00534s 70 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00534s 70 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00534s 81 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00534s 91 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00534s 91 ndn.fw.V2v:DoPropagateInterest(0x86b95b8)
+1.00534s 91 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00534s 91 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00534s 91 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00543s 1 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00543s 1 ndn.fw.V2v:DoPropagateInterest(0x86996b0)
+1.00543s 1 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00543s 1 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00543s 1 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00552s 93 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00552s 93 ndn.fw.V2v:DoPropagateInterest(0x86ba108)
+1.00552s 93 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00552s 93 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00552s 93 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00552s 72 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00572s 37 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00572s 48 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00572s 48 ndn.fw.V2v:DoPropagateInterest(0x86aa180)
+1.00572s 48 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00572s 48 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00572s 48 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00572s 39 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00572s 39 ndn.fw.V2v:DoPropagateInterest(0x86a6e98)
+1.00572s 39 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00572s 39 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00572s 39 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00572s 47 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00572s 47 ndn.fw.V2v:DoPropagateInterest(0x86a9bd8)
+1.00572s 47 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00572s 47 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00572s 47 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00594s 14 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00594s 15 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00612s 10 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00612s 2 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00628s 85 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00628s 85 ndn.fw.V2v:DoPropagateInterest(0x86b73c8)
+1.00628s 85 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00628s 85 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00628s 85 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00628s 86 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00628s 86 ndn.fw.V2v:DoPropagateInterest(0x86b7970)
+1.00628s 86 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00628s 86 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00628s 86 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00642s 87 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00642s 87 ndn.fw.V2v:DoPropagateInterest(0x86b7f18)
+1.00642s 87 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00642s 87 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00642s 87 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00642s 96 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00642s 96 ndn.fw.V2v:DoPropagateInterest(0x86bb200)
+1.00642s 96 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00642s 96 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00642s 96 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00642s 95 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00642s 95 ndn.fw.V2v:DoPropagateInterest(0x86bac58)
+1.00642s 95 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00642s 95 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00642s 95 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00668s 75 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00668s 55 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00682s 73 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00682s 64 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00682s 84 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00682s 85 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00682s 72 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00682s 62 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00682s 53 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.007s 77 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.007s 77 ndn.fw.V2v:DoPropagateInterest(0x86b4688)
+1.007s 77 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.007s 77 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.007s 77 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.007s 79 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.007s 79 ndn.fw.V2v:DoPropagateInterest(0x86b51d8)
+1.007s 79 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.007s 79 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.007s 79 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.007s 88 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.007s 88 ndn.fw.V2v:DoPropagateInterest(0x86b84c0)
+1.007s 88 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.007s 88 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.007s 88 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.007s 55 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.007s 59 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.007s 59 ndn.fw.V2v:DoPropagateInterest(0x86adfb8)
+1.007s 59 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.007s 59 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.007s 59 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00715s 45 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00715s 56 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00715s 35 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00715s 26 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00726s 85 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00726s 97 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00726s 97 ndn.fw.V2v:DoPropagateInterest(0x86bb7a8)
+1.00726s 97 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00726s 97 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00726s 97 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00734s 61 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00734s 72 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00734s 51 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00735s 18 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00735s 27 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00735s 19 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00735s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0074s 98 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0074s 98 ndn.fw.V2v:DoPropagateInterest(0x86bbd50)
+1.0074s 98 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0074s 98 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0074s 98 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00743s 72 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00743s 82 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00743s 62 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00743s 60 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00743s 52 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00743s 91 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00812s 85 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00839s 2 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00845s 101 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00845s 101 ndn.fw.V2v:DoPropagateInterest(0x86bcc40)
+1.00845s 101 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=local(1)(0,g,0)
+1.00845s 101 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.00845s 101 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00845s 101 ndn.fw.V2v:TrySendLowPriority(dev=local(1))
+1.00845s 101 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 1 faces
+1.00845s 49 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00845s 49 ndn.fw.V2v:DoPropagateInterest(0x86aa728)
+1.00845s 49 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00845s 49 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00845s 49 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00845s 69 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00845s 69 ndn.fw.V2v:DoPropagateInterest(0x86b1948)
+1.00845s 69 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00845s 69 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00845s 69 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0086s 88 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0086s 35 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0086s 37 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00874s 38 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00874s 47 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00874s 37 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00885s 99 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00885s 99 ndn.fw.V2v:DoPropagateInterest(0x86bc2f8)
+1.00885s 99 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00885s 99 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00885s 99 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0089s 38 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00895s 88 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00895s 86 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00895s 77 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00931s 91 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00957s 59 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00957s 49 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00957s 39 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00971s 68 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00971s 68 ndn.fw.V2v:DoPropagateInterest(0x86b13a0)
+1.00971s 68 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00971s 68 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00971s 68 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00972s 78 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00972s 78 ndn.fw.V2v:DoPropagateInterest(0x86b4c30)
+1.00972s 78 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00972s 78 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00972s 78 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00972s 101 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01062s 88 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01062s 87 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01115s 29 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01115s 48 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01115s 58 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01144s 89 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01144s 89 ndn.fw.V2v:DoPropagateInterest(0x86b8a68)
+1.01144s 89 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.01144s 89 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.01144s 89 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01179s 101 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01179s 58 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01261s 38 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01261s 38 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01279s 57 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01279s 47 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01279s 47 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01315s 101 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01315s 68 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01315s 37 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01315s 37 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01315s 28 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01376s 18 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01376s 18 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01401s 78 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01401s 77 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01401s 77 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01401s 88 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01401s 88 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01401s 89 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01417s 79 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01417s 77 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01485s 36 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01525s 67 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01548s 87 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01548s 87 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01548s 97 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01548s 79 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01548s 79 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01548s 99 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01578s 46 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01578s 56 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01578s 56 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01611s 16 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01611s 16 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01638s 66 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01652s 96 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01664s 55 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01664s 55 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01664s 65 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01664s 45 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01664s 45 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01695s 17 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01695s 17 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01695s 26 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01695s 26 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01695s 5 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01736s 44 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0176s 35 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.0176s 35 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0176s 27 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.0176s 27 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01782s 69 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01789s 42 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01789s 42 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01789s 52 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01789s 52 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01815s 4 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01827s 64 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01827s 64 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01827s 63 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01827s 84 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01827s 84 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01867s 85 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01867s 85 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01867s 94 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01888s 62 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01888s 62 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01888s 74 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01888s 72 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01888s 72 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01888s 43 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01888s 71 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01913s 86 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01913s 86 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01945s 25 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01945s 15 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01945s 15 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01962s 76 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0199s 77 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01991s 40 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02009s 53 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02009s 53 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02023s 83 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02023s 75 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02023s 75 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02025s 24 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02025s 24 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02047s 73 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02047s 73 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02077s 95 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02077s 14 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02077s 14 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02096s 70 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02096s 80 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02096s 91 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02096s 91 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02121s 100 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02121s 100 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02121s 100 ndn.fw.V2v:TrySendLowPriority(dev=local(1))
+1.02121s 30 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02121s 61 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02121s 61 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02172s 90 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02172s 81 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02172s 81 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02185s 34 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02185s 34 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02185s 33 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02185s 12 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02201s 51 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02201s 51 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02201s 60 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02201s 60 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02201s 82 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02201s 82 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02306s 31 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02338s 22 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02338s 11 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02338s 2 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02338s 2 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02338s 13 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02338s 21 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02338s 1 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02338s 10 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02338s 10 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0236s 93 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0236s 92 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02365s 23 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02393s 0 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02393s 20 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02393s 20 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02441s 3 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0252s 50 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.0252s 50 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02604s 32 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02604s 32 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.05436s 19 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.05436s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.05453s 5 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.05453s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.05453s 8 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06128s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06128s 91 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06128s 92 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06259s 89 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06259s 98 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06259s 88 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06259s 97 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06259s 78 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.06602s 19 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.06602s 19 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.06602s 6 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.06705s 78 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.06762s 7 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.06762s 7 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.06865s 89 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.06865s 88 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.07015s 97 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.07015s 98 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.07015s 98 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.07165s 17 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.07165s 16 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.07165s 5 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.07165s 9 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.07315s 8 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.07315s 8 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0755s 80 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.0755s 91 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.1058s 7 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.1058s 5 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.1058s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.1058s 8 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.12227s 16 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.12256s 54 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.12256s 54 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.16078s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.17329s 8 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.20509s 7 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.20509s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.20509s 15 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.20509s 8 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.20509s 26 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.25519s 5 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.25519s 8 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.26113s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.26113s 91 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.26113s 81 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.26113s 92 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.27663s 26 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.27663s 16 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.27691s 41 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.27691s 41 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.30516s 7 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.30516s 5 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.30516s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.30516s 15 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.30516s 4 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.31124s 80 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.31124s 91 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.32694s 15 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.35615s 5 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.36014s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.40486s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.41034s 80 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.41034s 81 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.41034s 92 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.45589s 7 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.45589s 16 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.45589s 4 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.45954s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.50569s 7 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.50569s 16 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.50569s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.50569s 26 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.55662s 7 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.55662s 16 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.55662s 26 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.55976s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.55976s 91 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.60473s 5 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.60473s 17 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.60473s 14 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.61069s 80 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.65555s 17 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.66025s 80 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.66026s 91 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.70576s 5 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA

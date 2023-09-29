@@ -1,0 +1,93 @@
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/ndnSIM-module.h"
+#include <ns3/ndnSIM/utils/tracers/ndn-l3-aggregate-tracer.h>
+#include <ns3/ndnSIM/utils/tracers/ndn-l3-rate-tracer.h>
+#include <ns3/ndnSIM/utils/tracers/l2-rate-tracer.h>
+#include <ns3/ndnSIM/utils/tracers/ndn-cs-tracer.h>
+#include <ns3/ndnSIM/utils/tracers/ndn-app-delay-tracer.h>
+
+using namespace ns3;
+
+int 
+main (int argc, char *argv[])
+{
+  // setting default parameters for PointToPoint links and channels
+  Config::SetDefault ("ns3::PointToPointNetDevice::DataRate", StringValue ("1Mbps"));
+  Config::SetDefault ("ns3::PointToPointChannel::Delay", StringValue ("10ms"));
+  Config::SetDefault ("ns3::DropTailQueue::MaxPackets", StringValue ("20"));
+
+  // Read optional command-line parameters (e.g., enable visualizer with ./waf --run=<> --visualize
+  CommandLine cmd;
+  cmd.Parse (argc, argv);
+
+  // Creating nodes
+  NodeContainer nodes;
+  nodes.Create (4);
+
+  // Connecting nodes using links
+  PointToPointHelper p2p;
+  p2p.Install (nodes.Get (0), nodes.Get (1));
+  p2p.Install (nodes.Get (1), nodes.Get (2));
+  p2p.Install (nodes.Get (1), nodes.Get (3));
+
+  // Install NDN stack on all nodes
+  ndn::StackHelper ndnHelper;
+  ndnHelper.SetForwardingStrategy ("ns3::ndn::fw::BestRoute");
+  //ndnHelper.SetContentStore ("ns3::ndn::cs::Lru","MaxSize", "2"); // allow just 2 entries to be cached
+  ndnHelper.InstallAll ();
+
+  // Installing global routing interface on all nodes
+  ndn::GlobalRoutingHelper ndnGlobalRoutingHelper;
+  ndnGlobalRoutingHelper.InstallAll ();
+
+  // Installing applications
+  // Consumer
+  ndn::AppHelper consumerHelper ("ns3::ndn::ConsumerCbr");
+  // Consumer will request /prefix/0, /prefix/1, ...
+  consumerHelper.SetPrefix ("/prefix");
+  consumerHelper.SetAttribute ("Frequency", StringValue ("10")); // 10 interests a second
+
+  ApplicationContainer appA;
+  ApplicationContainer appB;
+  
+  appA = consumerHelper.Install (nodes.Get (0)); // first node
+  appA.Start (Seconds (0.1));
+
+  appB = consumerHelper.Install (nodes.Get (2)); // second node
+  appB.Start (Seconds (5));
+
+  // Producer
+  ndn::AppHelper producerHelper ("ns3::ndn::Producer");
+  // Producer will reply to all requests starting with /prefix
+  producerHelper.SetPrefix ("/prefix");
+  producerHelper.SetAttribute ("PayloadSize", StringValue("1024"));
+  producerHelper.Install (nodes.Get (3)); // last node
+
+  // Add /prefix origins to ndn::GlobalRouter
+  ndnGlobalRoutingHelper.AddOrigins ("/prefix", nodes.Get (3));
+  ndn::GlobalRoutingHelper::CalculateRoutes ();
+
+  Simulator::Stop (Seconds (20.0));
+
+//boost::tuple< boost::shared_ptr<std::ostream>, std::list<Ptr<L2RateTracer> > >
+//    l2tracers = L2RateTracer::InstallAll ("trace-l2Drop.txt", Seconds (1.0));
+
+//boost::tuple< boost::shared_ptr<std::ostream>, std::list<Ptr<ndn::CsTracer> > >
+//   aggTracers = ndn::CsTracer::InstallAll ("trace-cs.txt", Seconds (1));
+
+boost::tuple< boost::shared_ptr<std::ostream>, std::list<Ptr<ndn::AppDelayTracer> > >
+   tracers = ndn::AppDelayTracer::InstallAll ("trace-app-delays.txt");
+
+boost::tuple< boost::shared_ptr<std::ostream>, std::list<Ptr<ndn::L3AggregateTracer> > >
+  aggTracers = ndn::L3AggregateTracer::InstallAll ("trace-aggregate.txt", Seconds (1.0));
+
+boost::tuple< boost::shared_ptr<std::ostream>, std::list<Ptr<ndn::L3RateTracer> > >
+  rateTracers = ndn::L3RateTracer::InstallAll ("trace-rate.txt", Seconds (1.0));
+  
+  Simulator::Run ();
+  Simulator::Destroy ();
+
+  return 0;
+}

@@ -1,0 +1,562 @@
+Waf: Entering directory `/home/adriano/ndnSIM/scenario/build'
+[ 5/21] cxx: extensions/ndn-fw-v2v.cc -> build/extensions/ndn-fw-v2v.cc.1.o
+[13/21] cxx: scenarios/car-pusher_v3.cc -> build/scenarios/car-pusher_v3.cc.5.o
+[16/21] cxxprogram: build/scenarios/car-pusher_v3.cc.5.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-pusher_v3
+[18/21] cxxprogram: build/scenarios/_validacao_mobilidade_vehicular.cc.2.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/_validacao_mobilidade_vehicular
+[19/21] cxxprogram: build/scenarios/car-pusher.cc.3.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-pusher
+[19/21] cxxprogram: build/scenarios/car-relay.cc.6.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-relay
+[20/21] cxxprogram: build/scenarios/car-pusher_v2.cc.4.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-pusher_v2
+[21/21] cxxprogram: build/scenarios/car-relay_v2.cc.7.o build/extensions/car-relay-tracer.cc.1.o build/extensions/custom-constant-velocity-mobility-model.cc.1.o build/extensions/geo-tag.cc.1.o build/extensions/highway-position-allocator.cc.1.o build/extensions/ndn-fw-v2v.cc.1.o build/extensions/ndn-v2v-net-device-face.cc.1.o build/extensions/v2v-tracer.cc.1.o build/extensions/vehicular-2d-mobility-model.cc.1.o build/extensions/vehicular-velocity-helper.cc.1.o -> build/car-relay_v2
+Waf: Leaving directory `/home/adriano/ndnSIM/scenario/build'
+'build' finished successfully (32.469s)
+1s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1s 100 ndn.fw.V2v:OnInterest(): [INFO ] CRIACAO de Interesse em: X: 10 Y: 500
+1s 100 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 10 Y: 500
+1s 100 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1s 100 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1s 100 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 10 Y: 500
+1s 100 ndn.fw.V2v:DoPropagateInterest(0x889d6c8)
+1s 100 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1s 100 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 1 faces
+1.00005s 40 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 40 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 60.0005 Y: 450
+1.00005s 40 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00005s 40 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00005s 40 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 60.0005 Y: 450
+1.00005s 40 ndn.fw.V2v:DoPropagateInterest(0x8888440)
+1.00005s 40 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00005s 40 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00005s 40 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00005s 50 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 50 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 50 Y: 560
+1.00005s 50 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00005s 50 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00005s 50 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 50 Y: 560
+1.00005s 50 ndn.fw.V2v:DoPropagateInterest(0x888bcd0)
+1.00005s 50 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00005s 50 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00005s 50 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00005s 60 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 60 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 50 Y: 640
+1.00005s 60 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00005s 60 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00005s 60 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 50 Y: 640
+1.00005s 30 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00005s 30 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 39.9995 Y: 350
+1.00005s 30 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00005s 30 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00005s 30 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 39.9995 Y: 350
+1.00013s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 100 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 10.0013 Y: 500
+1.00013s 100 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00013s 100 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00013s 100 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 10.0013 Y: 500
+1.00013s 41 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 41 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 150 Y: 439.999
+1.00013s 41 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00013s 41 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00013s 41 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 150 Y: 439.999
+1.00013s 41 ndn.fw.V2v:DoPropagateInterest(0x88889e8)
+1.00013s 41 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00013s 41 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00013s 41 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00013s 31 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 31 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 139.999 Y: 350
+1.00013s 31 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00013s 31 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00013s 31 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 139.999 Y: 350
+1.00013s 32 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00013s 32 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 250 Y: 339.999
+1.00013s 32 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00013s 32 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00013s 32 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 250 Y: 339.999
+1.00165s 100 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00165s 100 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 10.0165 Y: 500
+1.00165s 100 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00165s 100 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00165s 100 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 10.0165 Y: 500
+1.00165s 60 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00165s 60 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 50 Y: 639.984
+1.00165s 60 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00165s 60 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00165s 60 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 50 Y: 639.984
+1.00165s 51 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00165s 51 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 150 Y: 560.016
+1.00165s 51 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00165s 51 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00165s 51 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 150 Y: 560.016
+1.00165s 51 ndn.fw.V2v:DoPropagateInterest(0x888c278)
+1.00165s 51 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00165s 51 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00165s 51 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00165s 61 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00165s 61 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 139.984 Y: 650
+1.00165s 61 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00165s 61 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00165s 61 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 139.984 Y: 650
+1.0033s 31 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0033s 31 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 139.967 Y: 350
+1.0033s 31 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0033s 31 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0033s 31 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 139.967 Y: 350
+1.0033s 40 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0033s 40 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 60.033 Y: 450
+1.0033s 40 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0033s 40 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0033s 40 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 60.033 Y: 450
+1.0033s 42 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0033s 42 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 250 Y: 439.967
+1.0033s 42 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0033s 42 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0033s 42 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 250 Y: 439.967
+1.0033s 42 ndn.fw.V2v:DoPropagateInterest(0x8888f90)
+1.0033s 42 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0033s 42 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0033s 42 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0033s 30 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0033s 30 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 39.967 Y: 350
+1.0033s 30 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0033s 30 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0033s 30 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 39.967 Y: 350
+1.0033s 52 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0033s 52 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 250 Y: 560.033
+1.0033s 52 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0033s 52 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0033s 52 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 250 Y: 560.033
+1.0033s 52 ndn.fw.V2v:DoPropagateInterest(0x888c820)
+1.0033s 52 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0033s 52 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0033s 52 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0033s 60 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0033s 60 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 50 Y: 639.967
+1.0033s 60 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0033s 60 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0033s 60 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 50 Y: 639.967
+1.00398s 53 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00398s 53 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 360.04 Y: 550
+1.00398s 53 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00398s 53 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00398s 53 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 360.04 Y: 550
+1.00398s 53 ndn.fw.V2v:DoPropagateInterest(0x888cdc8)
+1.00398s 53 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00398s 53 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00398s 53 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00398s 34 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00398s 34 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 450 Y: 339.96
+1.00398s 34 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00398s 34 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00398s 34 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 450 Y: 339.96
+1.00414s 50 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00414s 50 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 50 Y: 560.041
+1.00414s 50 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00414s 50 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00414s 50 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 50 Y: 560.041
+1.00414s 60 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00414s 60 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 50 Y: 639.959
+1.00414s 60 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00414s 60 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00414s 60 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 50 Y: 639.959
+1.0062s 32 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0062s 32 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 250 Y: 339.938
+1.0062s 32 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0062s 32 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0062s 32 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 250 Y: 339.938
+1.0062s 41 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0062s 41 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 150 Y: 439.938
+1.0062s 41 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0062s 41 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0062s 41 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 150 Y: 439.938
+1.0062s 44 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0062s 44 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 439.938 Y: 450
+1.0062s 44 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0062s 44 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0062s 44 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 439.938 Y: 450
+1.0062s 44 ndn.fw.V2v:DoPropagateInterest(0x8889ae0)
+1.0062s 44 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.0062s 44 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.0062s 44 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0062s 34 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.0062s 34 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 450 Y: 339.938
+1.0062s 34 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.0062s 34 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.0062s 34 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 450 Y: 339.938
+1.00642s 43 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00642s 43 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 350 Y: 460.064
+1.00642s 43 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00642s 43 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00642s 43 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 350 Y: 460.064
+1.00642s 43 ndn.fw.V2v:DoPropagateInterest(0x8889538)
+1.00642s 43 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00642s 43 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00642s 43 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00642s 65 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00642s 65 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 550 Y: 639.936
+1.00642s 65 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00642s 65 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00642s 65 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 550 Y: 639.936
+1.00642s 74 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00642s 74 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 439.936 Y: 750
+1.00642s 74 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00642s 74 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00642s 74 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 439.936 Y: 750
+1.00642s 45 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00642s 45 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 560.064 Y: 450
+1.00642s 45 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00642s 45 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00642s 45 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 560.064 Y: 450
+1.00642s 45 ndn.fw.V2v:DoPropagateInterest(0x888a088)
+1.00642s 45 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00642s 45 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00642s 45 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00689s 54 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00689s 54 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 450 Y: 560.069
+1.00689s 54 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00689s 54 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00689s 54 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 450 Y: 560.069
+1.00689s 54 ndn.fw.V2v:DoPropagateInterest(0x888d370)
+1.00689s 54 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00689s 54 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00689s 54 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00689s 33 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00689s 33 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 360.069 Y: 350
+1.00689s 33 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00689s 33 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00689s 33 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 360.069 Y: 350
+1.00689s 35 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00689s 35 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 550 Y: 339.931
+1.00689s 35 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00689s 35 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00689s 35 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 550 Y: 339.931
+1.00689s 56 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00689s 56 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 639.931 Y: 550
+1.00689s 56 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00689s 56 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00689s 56 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 639.931 Y: 550
+1.00689s 56 ndn.fw.V2v:DoPropagateInterest(0x888dec0)
+1.00689s 56 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00689s 56 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00689s 56 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00737s 55 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00737s 55 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 560.074 Y: 550
+1.00737s 55 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00737s 55 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00737s 55 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 560.074 Y: 550
+1.00737s 55 ndn.fw.V2v:DoPropagateInterest(0x888d918)
+1.00737s 55 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00737s 55 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00737s 55 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00737s 46 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00737s 46 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 639.926 Y: 450
+1.00737s 46 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00737s 46 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00737s 46 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 639.926 Y: 450
+1.00737s 46 ndn.fw.V2v:DoPropagateInterest(0x888a630)
+1.00737s 46 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00737s 46 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00737s 46 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00737s 57 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00737s 57 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 750 Y: 560.074
+1.00737s 57 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00737s 57 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00737s 57 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 750 Y: 560.074
+1.00737s 57 ndn.fw.V2v:DoPropagateInterest(0x888e468)
+1.00737s 57 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00737s 57 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00737s 57 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00737s 65 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00737s 65 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 550 Y: 639.926
+1.00737s 65 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00737s 65 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00737s 65 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 550 Y: 639.926
+1.00737s 47 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00737s 47 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 750 Y: 460.074
+1.00737s 47 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00737s 47 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00737s 47 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 750 Y: 460.074
+1.00737s 47 ndn.fw.V2v:DoPropagateInterest(0x888abd8)
+1.00737s 47 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00737s 47 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00737s 47 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00737s 76 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00737s 76 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 650 Y: 739.926
+1.00737s 76 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00737s 76 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00737s 76 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 650 Y: 739.926
+1.00737s 64 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00737s 64 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 460.074 Y: 650
+1.00737s 64 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00737s 64 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00737s 64 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 460.074 Y: 650
+1.00774s 35 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00774s 35 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 550 Y: 339.923
+1.00774s 35 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00774s 35 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00774s 35 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 550 Y: 339.923
+1.00774s 25 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00774s 25 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 539.923 Y: 250
+1.00774s 25 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00774s 25 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00774s 25 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 539.923 Y: 250
+1.00802s 37 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00802s 37 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 760.08 Y: 350
+1.00802s 37 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00802s 37 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00802s 37 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 760.08 Y: 350
+1.00802s 48 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00802s 48 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 860.08 Y: 450
+1.00802s 48 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00802s 48 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00802s 48 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 860.08 Y: 450
+1.00802s 48 ndn.fw.V2v:DoPropagateInterest(0x888b180)
+1.00802s 48 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00802s 48 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00802s 48 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00802s 58 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00802s 58 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 850 Y: 539.92
+1.00802s 58 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00802s 58 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00802s 58 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 850 Y: 539.92
+1.00802s 58 ndn.fw.V2v:DoPropagateInterest(0x888ea10)
+1.00802s 58 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00802s 58 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00802s 58 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00802s 38 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00802s 38 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 839.92 Y: 350
+1.00802s 38 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00802s 38 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00802s 38 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 839.92 Y: 350
+1.00802s 76 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00802s 76 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 650 Y: 739.92
+1.00802s 76 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00802s 76 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00802s 76 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 650 Y: 739.92
+1.00829s 53 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00829s 53 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 360.083 Y: 550
+1.00829s 53 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00829s 53 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00829s 53 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 360.083 Y: 550
+1.00829s 64 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00829s 64 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 460.083 Y: 650
+1.00829s 64 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00829s 64 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00829s 64 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 460.083 Y: 650
+1.00829s 44 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00829s 44 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 439.917 Y: 450
+1.00829s 44 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00829s 44 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00829s 44 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 439.917 Y: 450
+1.00894s 59 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00894s 59 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 950 Y: 539.911
+1.00894s 59 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00894s 59 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00894s 59 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 950 Y: 539.911
+1.00894s 59 ndn.fw.V2v:DoPropagateInterest(0x888efb8)
+1.00894s 59 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00894s 59 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00894s 59 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00894s 49 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00894s 49 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 950 Y: 439.911
+1.00894s 49 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00894s 49 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00894s 49 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 950 Y: 439.911
+1.00894s 49 ndn.fw.V2v:DoPropagateInterest(0x888b728)
+1.00894s 49 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=v2v-net(0)(2147483647,y,1)
+1.00894s 49 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 0 faces
+1.00894s 49 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.00894s 67 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00894s 67 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 750 Y: 660.089
+1.00894s 67 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00894s 67 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00894s 67 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 750 Y: 660.089
+1.00894s 66 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00894s 66 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 660.089 Y: 650
+1.00894s 66 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00894s 66 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00894s 66 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 660.089 Y: 650
+1.00917s 36 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 36 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 639.908 Y: 350
+1.00917s 36 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 36 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 36 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 639.908 Y: 350
+1.00917s 35 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 35 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 550 Y: 339.908
+1.00917s 35 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 35 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 35 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 550 Y: 339.908
+1.00917s 57 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 57 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 750 Y: 560.092
+1.00917s 57 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 57 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 57 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 750 Y: 560.092
+1.00917s 26 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 26 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 650 Y: 260.092
+1.00917s 26 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 26 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 26 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 650 Y: 260.092
+1.00917s 44 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 44 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 439.908 Y: 450
+1.00917s 44 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 44 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 44 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 439.908 Y: 450
+1.00917s 65 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 65 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 550 Y: 639.908
+1.00917s 65 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 65 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 65 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 550 Y: 639.908
+1.00917s 25 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 25 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 539.908 Y: 250
+1.00917s 25 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 25 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 25 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 539.908 Y: 250
+1.00917s 27 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.00917s 27 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 739.908 Y: 250
+1.00917s 27 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.00917s 27 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.00917s 27 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 739.908 Y: 250
+1.01033s 56 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01033s 56 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 639.897 Y: 550
+1.01033s 56 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.01033s 56 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.01033s 56 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 639.897 Y: 550
+1.01033s 45 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01033s 45 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 560.103 Y: 450
+1.01033s 45 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.01033s 45 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.01033s 45 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 560.103 Y: 450
+1.01033s 66 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01033s 66 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 660.103 Y: 650
+1.01033s 66 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.01033s 66 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.01033s 66 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 660.103 Y: 650
+1.01033s 44 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01033s 44 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 439.897 Y: 450
+1.01033s 44 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.01033s 44 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.01033s 44 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 439.897 Y: 450
+1.01048s 101 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01048s 101 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 1000 Y: 500
+1.01048s 101 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.01048s 101 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.01048s 101 ndn.fw.V2v:OnInterest(): [INFO ] Propagacao Interesse Realizada por No em X: 1000 Y: 500
+1.01048s 101 ndn.fw.V2v:DoPropagateInterest(0x889dc40)
+1.01048s 101 ndn.fw.V2v:DoPropagateInterest(): [DEBUG] Trying dev=local(1)(0,g,0)
+1.01048s 101 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01048s 101 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01048s 101 ndn.fw.V2v:TrySendLowPriority(dev=local(1))
+1.01048s 101 ndn.fw.V2v:DoPropagateInterest(): [INFO ] Propagated to 1 faces
+1.01048s 38 ndn.fw.V2v:OnInterest(): [DEBUG] Method V2v::OnInterest
+1.01048s 38 ndn.fw.V2v:OnInterest(): [INFO ] Chegada de Interesse posicao: X: 839.895 Y: 350
+1.01048s 38 ndn.fw.V2v:GetTagDestino(): [INFO ] Posicao (X,Y) de Interesse (1000,500)
+1.01048s 38 ndn.fw.V2v:RetanguloInteresse(): [INFO ] Area de Interesse: Inferior (10,400) Superior (1000,600
+1.01048s 38 ndn.fw.V2v:OnInterest(): [INFO ] Retransmissao de Interesse Abortada no No em X: 839.895 Y: 350
+1.01233s 59 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01233s 49 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01233s 39 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01233s 69 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01233s 37 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01309s 38 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01309s 28 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01317s 58 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0138s 18 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0138s 29 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0138s 27 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0138s 19 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0138s 8 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0138s 9 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0143s 48 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01506s 6 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01559s 7 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01644s 16 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01644s 14 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01731s 15 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01731s 5 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01731s 26 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01874s 17 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01915s 36 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01915s 25 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01915s 35 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01915s 45 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.01915s 45 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01967s 4 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01997s 24 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.01997s 3 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02044s 2 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02044s 13 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02116s 46 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02116s 55 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02116s 44 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02116s 44 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02116s 56 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02116s 56 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02116s 54 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02116s 47 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02164s 34 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02236s 1 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02236s 0 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02236s 22 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02281s 53 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02281s 53 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02281s 64 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02281s 75 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02281s 42 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02297s 23 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02333s 10 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02353s 86 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02353s 77 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0236s 33 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02414s 12 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02414s 32 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02414s 31 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02419s 65 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02419s 57 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02419s 57 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02438s 21 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02438s 30 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02438s 100 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02438s 100 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02438s 100 ndn.fw.V2v:TrySendLowPriority(dev=local(1))
+1.02461s 67 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02461s 66 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02461s 97 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02484s 87 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02484s 98 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02484s 96 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02484s 95 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0251s 43 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0251s 52 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0251s 72 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02529s 40 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02529s 40 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02529s 51 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02556s 84 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02559s 11 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02559s 20 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02629s 94 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02629s 85 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02629s 93 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02629s 73 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02629s 82 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02663s 63 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02709s 68 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02709s 78 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.0275s 41 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.0275s 41 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02752s 88 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02793s 74 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02839s 92 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02839s 80 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02857s 79 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02857s 89 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02857s 99 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02894s 76 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02919s 50 ndn.fw.V2v:DidReceiveSolicitedData(): [INFO ] RECEIVE SOLICITED DATA
+1.02919s 50 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02919s 61 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02937s 60 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.02937s 62 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.03002s 83 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.03057s 71 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.03184s 91 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.03506s 90 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.03506s 70 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
+1.03536s 81 ndn.fw.V2v:TrySendLowPriority(dev=v2v-net(0))
